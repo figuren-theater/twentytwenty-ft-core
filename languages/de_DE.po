@@ -1,0 +1,870 @@
+# Julia Raab - Website 2018 Copyright (c) {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: Julia Raab - Website 2018\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-17 16:50+0100\n"
+"PO-Revision-Date: 2018-03-17 16:51+0100\n"
+"Last-Translator: Carsten Bach <mail@carsten-bach.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:28
+#, php-format
+msgid "Topic: %s"
+msgstr "Thema: %s"
+
+#: archive.php:30
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: archive.php:32
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: archive.php:34
+#, php-format
+msgid "Year: %s"
+msgstr "Jahr: %s"
+
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+#, php-format
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:38
+#, php-format
+msgid "Day: %s"
+msgstr "Tag: %s"
+
+#: archive.php:38
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: archive.php:41
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Notizen"
+
+#: archive.php:43
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerien"
+
+#: archive.php:45
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bilder"
+
+#: archive.php:47
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videos"
+
+#: archive.php:49
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Zitate"
+
+#: archive.php:51
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
+#: archive.php:53
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status-Meldungen"
+
+#: archive.php:55
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audios"
+
+#: archive.php:57
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: archive.php:60
+#: archive.php:109
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: archive.php:64
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: archive.php:66
+#, php-format
+msgid "Searchterm: %s"
+msgstr "Suchbegriff: %s"
+
+#: archive.php:68
+msgid "Archives"
+msgstr "Übersicht"
+
+#: archive.php:111
+msgid "Posts"
+msgstr "Beiträge"
+
+#: search.php:109
+msgid "Did you mean"
+msgstr "Meintest Du"
+
+#: search.php:126
+#, php-format
+msgid "One single result for: %2$s - WOW"
+msgid_plural "%1$s Search results for: %2$s"
+msgstr[0] "Wow, ein einziger Treffer für: %2$s"
+msgstr[1] "%1$s Treffer für: %2$s"
+
+#: search.php:136
+msgid "Hits"
+msgstr "Treffer"
+
+#: functions/functions/theme_functions.php:35
+#: functions/functions/theme_functions.php:51
+msgid "Just"
+msgstr "Erst"
+
+#: functions/functions/theme_functions.php:36
+#: functions/functions/theme_functions.php:60
+msgid "Already"
+msgstr "Schon"
+
+#: functions/functions/theme_functions.php:39
+msgid "Award won"
+msgid_plural "Awards won"
+msgstr[0] "Preis geholt"
+msgstr[1] "Preise geholt"
+
+#: functions/functions/theme_functions.php:43
+#: functions/functions/theme_functions.php:44
+msgid "Guest on"
+msgstr "Gast auf"
+
+#: functions/functions/theme_functions.php:47
+msgid "Festival"
+msgid_plural "Festivals"
+msgstr[0] "Festival"
+msgstr[1] "Festivals"
+
+#: functions/functions/theme_functions.php:52
+msgid "At all"
+msgstr "Insgesamt"
+
+#: functions/functions/theme_functions.php:55
+msgid "played show"
+msgid_plural "played shows"
+msgstr[0] "gespielte Aufführung"
+msgstr[1] "gespielte Aufführungen "
+
+#: functions/functions/theme_functions.php:59
+msgid "So far"
+msgstr "Bisher"
+
+#: functions/functions/theme_functions.php:63
+msgid "Spectator"
+msgid_plural "Spectators"
+msgstr[0] "Zuschauer"
+msgstr[1] "Zuschauer"
+
+#: functions/menus/utility.php:2
+msgid "Utility Navigation"
+msgstr "Zusatznavigation"
+
+#: functions/menus/main.php:2
+msgid "Main Navigation"
+msgstr "Hauptnavigation"
+
+#: functions/timber/init_timber_class.php:81
+#, php-format
+msgid "Add to Google %s"
+msgstr "mit Google %s"
+
+#: functions/timber/init_timber_class.php:84
+msgctxt "Add to Google ... %s"
+msgid "Calendar"
+msgstr "Kalender"
+
+#: functions/timber/add_to_context.php:60
+msgid "Subscribe via RSS"
+msgstr "Abonnieren per RSS"
+
+#: functions/timber/add_to_context.php:67
+msgid "Newsletter by Email"
+msgstr "Newsletter per Email"
+
+#: functions/timber/add_to_context.php:75
+msgid "Calendar Updates"
+msgstr "Kalender Updates"
+
+#: functions/timber/add_to_context.php:76
+msgid "Abonnieren Sie meine Spieltermine in Ihren digitalen Kalender, mit meinem <ul><li><a href=\""
+msgstr ""
+
+#: functions/timber/add_to_context.php:80
+msgid "PUSH News"
+msgstr "PUSH Nachrichten"
+
+#: functions/timber/add_to_context.php:81
+msgid "... instantly on your mobile or as desktop-notifications.<br><br>Soon."
+msgstr "... direkt aufs Handy oder als Desktop-Benarchrichtigungen.<br><br>Gibt es in Kürze."
+
+#: functions/tiny_mce/before_init.php:35
+msgid "Headings"
+msgstr "Überschriften"
+
+#: functions/tiny_mce/before_init.php:42
+msgid "Heading 2"
+msgstr "Überschrift 2"
+
+#: functions/tiny_mce/before_init.php:46
+msgid "Heading 3"
+msgstr "Überschrift 3"
+
+#: functions/tiny_mce/before_init.php:50
+msgid "Heading 4"
+msgstr "Überschrift 4"
+
+#: functions/tiny_mce/before_init.php:54
+msgid "Heading 5"
+msgstr "Überschrift 5"
+
+#: functions/tiny_mce/before_init.php:58
+msgid "Heading 6"
+msgstr "Überschrift 6"
+
+#: functions/tiny_mce/before_init.php:66
+msgid "Blocks"
+msgstr "Blöcke"
+
+#: functions/tiny_mce/before_init.php:69
+msgid "Paragraph"
+msgstr "Absatz"
+
+#: functions/tiny_mce/before_init.php:73
+msgid "Preformatted"
+msgstr "Vorformatiert"
+
+#: functions/tiny_mce/before_init.php:81
+msgid "Highlights"
+msgstr "Hervorgehoben"
+
+#: functions/tiny_mce/before_init.php:84
+msgid "Mark"
+msgstr "Markiert"
+
+#: functions/tiny_mce/before_init.php:88
+msgid "Success"
+msgstr "Erfolg"
+
+#: functions/tiny_mce/before_init.php:93
+msgid "Info"
+msgstr "Info"
+
+#: functions/tiny_mce/before_init.php:98
+msgid "Warn"
+msgstr "Warnung"
+
+#: functions/tiny_mce/before_init.php:103
+msgid "Important"
+msgstr "Wichtig"
+
+#: functions/tiny_mce/before_init.php:108
+msgid "Reduced"
+msgstr "Gedimmt"
+
+#: functions/tiny_mce/before_init.php:116
+msgid "Links"
+msgstr "Links"
+
+#: functions/tiny_mce/before_init.php:125
+msgid "Button"
+msgstr "Button"
+
+#: functions/tiny_mce/before_init.php:146
+msgid "Left"
+msgstr "Links"
+
+#: functions/tiny_mce/before_init.php:152
+msgid "Center"
+msgstr ""
+
+#: functions/tiny_mce/before_init.php:158
+msgid "Right"
+msgstr ""
+
+#: functions/tiny_mce/before_init.php:164
+msgid "Justify"
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:14
+msgid "Sidebar one"
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:14
+msgid "This sidebar is shown on singular views only. And very prominent before all content/post related stuff comes."
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:15
+msgid "Sidebar two"
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:15
+msgid "The sidebar widget area"
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:31
+msgid "Footer local"
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:31
+#: functions/widgets/sidebars_init.php:32
+#: functions/widgets/sidebars_init.php:33
+msgid "The footer widget area"
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:32
+msgid "Footer logos"
+msgstr ""
+
+#: functions/widgets/sidebars_init.php:33
+msgid "Footer global"
+msgstr ""
+
+#: functions/plugins/plugin.extension.webmention.php:15
+msgid "Critics ??"
+msgstr "Kritik ??"
+
+#: functions/plugins/plugin.extension.webmention.php:16
+msgid "Respond on your own site? Send me a <a href=\"http://indieweb.org/webmention\">Webmention</a> by writing something on your website that links to this post and then enter your post URL below."
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:29
+msgid "Telegram (t.me Username)"
+msgstr "Telegram (t.me Username)"
+
+#: functions/plugins/plugin.extension.indieweb.php:34
+msgid "Google+ userID (not username)"
+msgstr "Google+ userID (not username)"
+
+#: functions/plugins/plugin.extension.indieweb.php:38
+msgid "Twitter username (without @)"
+msgstr "Twitter username (without @)"
+
+#: functions/plugins/plugin.extension.indieweb.php:42
+msgid "XING URL-Account-Name"
+msgstr "XING URL-Account-Name"
+
+#: functions/plugins/plugin.extension.indieweb.php:46
+msgid "LinkedIn Vanity URL"
+msgstr "LinkedIn Vanity URL"
+
+#: functions/plugins/plugin.extension.indieweb.php:51
+msgid "Skype username"
+msgstr "Skype username"
+
+#: functions/plugins/plugin.extension.indieweb.php:55
+msgid "Youtube Channel ID"
+msgstr "Youtube Channel ID"
+
+#: functions/plugins/plugin.extension.indieweb.php:59
+msgid "Vimeo username"
+msgstr "Vimeo username"
+
+#: functions/plugins/plugin.extension.indieweb.php:72
+msgid "Routing Link"
+msgstr "Routing Link"
+
+#: functions/plugins/plugin.extension.indieweb.php:73
+msgid "Link from a Maps App pointing to your location / business."
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:76
+msgid "Telephone"
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:77
+msgid "Telephone number incl. international prefix (+49)"
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:80
+msgid "Mobile phone"
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:81
+msgid "Mobile phone number incl. international prefix (+49)"
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:84
+msgid "Email (public)"
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:85
+msgid "Email-Address visible to every site viewer. Must not be your account email."
+msgstr ""
+
+#: functions/plugins/plugin.extension.indieweb.php:119
+#, php-format
+msgid "Avatar-Image of %s"
+msgstr "Avatar-Bild von %s"
+
+#: functions/plugins/plugin.extension.indieweb.php:230
+msgid "Say Hello"
+msgstr "Sag Hallo"
+
+#: functions/plugins/plugin.extension.p2p.php:47
+msgid "Related Content"
+msgstr ""
+
+#: functions/plugins/plugin.extension.p2p.php:48
+msgid "Used within"
+msgstr ""
+
+#: functions/plugins/plugin.extension.p2p.php:67
+msgid "Production"
+msgstr "Produktion"
+
+#: functions/plugins/plugin.extension.p2p.php:68
+msgid "Search Productions"
+msgstr ""
+
+#: functions/plugins/plugin.extension.p2p.php:69
+msgid "No Productions found."
+msgstr ""
+
+#: functions/plugins/plugin.extension.p2p.php:70
+msgid "Create Connection"
+msgstr ""
+
+#: functions/plugins/plugin.extension.p2p.php:71
+msgid "Production(s)"
+msgstr ""
+
+#: functions/plugins/plugin.extension.p2p.php:77
+msgid "Related Production(s)"
+msgstr ""
+
+#: functions/plugins/plugin.extension.p2p.php:78
+msgid "Related with this production"
+msgstr ""
+
+#: functions/shortcodes/shortcode.cf7.php:15
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: functions/kirki/init_kirki_theme_settings.php:49
+msgid "Text Blocks"
+msgstr ""
+
+#: functions/kirki/init_kirki_theme_settings.php:51
+#, php-format
+msgid "Specific content building-bricks for %s."
+msgstr ""
+
+#: functions/kirki/init_kirki_theme_settings.php:61
+msgid "Design"
+msgstr ""
+
+#: functions/kirki/init_kirki_theme_settings.php:62
+msgid "Visual elements that could affect your global webdesign."
+msgstr ""
+
+#: functions/kirki/init_kirki_theme_settings.php:75
+msgid "Important Pages"
+msgstr ""
+
+#: functions/kirki/kirki_thememod_analytics_tracking_code.php:10
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: functions/kirki/kirki_thememod_first_pub_year.php:11
+msgid "Year of first publishing"
+msgstr ""
+
+#: functions/kirki/kirki_thememod_contact-information.php:12
+msgid "Email"
+msgstr ""
+
+#: functions/kirki/kirki_thememod_contact-information.php:13
+msgid "Central emailaddress used whenever possible on the whole site."
+msgstr ""
+
+#: functions/kirki/kirki_thememod_contact-information.php:29
+msgid "Phone"
+msgstr ""
+
+#: functions/kirki/kirki_thememod_contact-information.php:30
+msgid "Central telephone-number used whenever possible on the whole site."
+msgstr ""
+
+#: functions/kirki/kirki_thememod_copyright_note.php:11
+msgid "Copyright Note"
+msgstr ""
+
+#: functions/kirki/kirki_thememod_copyright_note.php:15
+msgid "All Rights reserved"
+msgstr ""
+
+#: functions/images/media_view_settings.php:53
+msgid "Author Name"
+msgstr ""
+
+#: functions/images/media_view_settings.php:58
+msgid "Author URL"
+msgstr ""
+
+#: functions/images/media_view_settings.php:61
+#: functions/images/media_view_settings.php:93
+msgid "Image:"
+msgstr ""
+
+#: functions/images/image_sizes.php:13
+#: functions/images/image_sizes.php:14
+msgid "Thumbnail"
+msgstr ""
+
+#: functions/images/image_sizes.php:16
+#: functions/images/image_sizes.php:17
+msgid "Logo Thumbnail"
+msgstr ""
+
+#: functions/images/image_sizes.php:20
+msgctxt "custom-image-size"
+msgid "Medium Thumb"
+msgstr ""
+
+#: functions/images/image_sizes.php:21
+msgctxt "custom-image-size"
+msgid "Medium"
+msgstr ""
+
+#: functions/images/image_sizes.php:22
+msgctxt "custom-image-size"
+msgid "Semi"
+msgstr ""
+
+#: functions/images/image_sizes.php:23
+msgctxt "custom-image-size"
+msgid "Normal"
+msgstr ""
+
+#: functions/images/image_sizes.php:26
+msgid "Large"
+msgstr ""
+
+#: functions/images/image_sizes.php:28
+msgid "Full Size"
+msgstr ""
+
+#: functions/images/image_sizes.php:65
+#: functions/images/image_sizes.php:66
+msgid "flexible"
+msgstr ""
+
+#: functions/theme_support/emoji.php:11
+msgid "Emojis 🍒"
+msgstr ""
+
+#: functions/theme_support/emoji.php:12
+msgid "Switch the support for blinking, fancy <a href=\"http://www.webpagefx.com/tools/emoji-cheat-sheet/\">Emojis</a>."
+msgstr ""
+
+#: components/8-templates/single-event.twig:27
+#: components/8-templates/single-event.twig:29
+msgid "G:i"
+msgstr "G:i"
+
+#: components/8-templates/single-event.twig:82
+msgid "Save the date !"
+msgstr "Termin merken !"
+
+#: components/8-templates/single-event.twig:82
+#, python-format
+msgid "of \"%s\""
+msgstr "für \"%s\""
+
+#: components/8-templates/single-event.twig:107
+#: components/8-templates/single-event.twig:114
+msgid "pre-order and reserve"
+msgstr "Vorbestellen und Reservieren"
+
+#: components/8-templates/single-event.twig:115
+msgid "are availiable at ..."
+msgstr "gibt's auf ..."
+
+#: components/8-templates/single-event.twig:122
+msgid "are availiable at the boxoffice only"
+msgstr "gibt's nur an der Abendkasse."
+
+#: components/8-templates/single-event.twig:132
+msgid "Tickets"
+msgstr "Tickets"
+
+#: components/8-templates/single-productions.twig:32
+msgid "Information for directors, stage technicians and light engineers."
+msgstr "Informationen für Intendantinnen, Bühnentechniker und Lichtingenieure."
+
+#: components/8-templates/single-productions.twig:35
+msgid "Informationen für"
+msgstr ""
+
+#: components/8-templates/single-productions.twig:36
+msgid "Intendantinnen"
+msgstr ""
+
+#: components/8-templates/single-productions.twig:37
+msgid "Bühnentechniker"
+msgstr ""
+
+#: components/8-templates/single-productions.twig:38
+msgid "und das "
+msgstr ""
+
+#: components/8-templates/search.twig:12
+msgid "Try once more?"
+msgstr "Nochmal Ver-Suchen?"
+
+#: components/8-templates/single.twig:81
+msgid "Tagged with:"
+msgstr "Ge-Tag-t bzw. verschlagwortet mit:"
+
+#: components/8-templates/single.twig:130
+msgctxt "Attachment xyz >Download<"
+msgid "Download"
+msgstr "Download"
+
+#: components/5-navigation/logo-link.twig:2
+msgid "Homepage"
+msgstr "Startseite"
+
+#: components/5-navigation/pagination.twig:11
+#, python-format
+msgid "Previous %s"
+msgstr "Letzte %s"
+
+#: components/5-navigation/pagination.twig:38
+#, python-format
+msgid "Next %s"
+msgstr "Mehr %s"
+
+#: components/5-navigation/navs-macro.twig:37
+msgid "less"
+msgstr "weniger"
+
+#: components/5-navigation/navs-macro.twig:37
+#: components/5-navigation/navs-macro.twig:38
+msgid "Menu"
+msgstr "Menü"
+
+#: components/5-navigation/navs-macro.twig:38
+msgid "more"
+msgstr "mehr"
+
+#: components/5-navigation/skip-links.twig:3
+msgid "Skip to content"
+msgstr "Springe zum Inhalt"
+
+#: components/5-navigation/back-to-top.twig:4
+msgid "Back to top"
+msgstr ""
+
+#: components/4-molecules/credits.twig:5
+msgctxt "Created with Love and WP and CB"
+msgid "Created"
+msgstr "Gemacht"
+
+#: components/4-molecules/credits.twig:6
+msgctxt "Created with Love and WP and CB"
+msgid "with"
+msgstr "mit"
+
+#: components/4-molecules/credits.twig:8
+msgctxt "Created with Love and WP and CB"
+msgid "Love"
+msgstr "Liebe"
+
+#: components/4-molecules/credits.twig:9
+msgctxt "Created with Love and WP and CB"
+msgid "and"
+msgstr "und"
+
+#: components/4-molecules/credits.twig:12
+msgctxt "Created with Love and WP and CB"
+msgid "by"
+msgstr "von"
+
+#: components/4-molecules/searchform.twig:2
+msgid "What are you looking for?"
+msgstr "Was suchst Du?"
+
+#: components/4-molecules/searchform.twig:3
+msgid "Start Search"
+msgstr "Suche starten"
+
+#: components/4-molecules/searchform.twig:5
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: components/4-molecules/searchform.twig:7
+msgid "Start"
+msgstr "Los geht's"
+
+#: components/4-molecules/readmore-timeago.twig:2
+msgid "Read on"
+msgstr "Ansehen"
+
+#: components/4-molecules/readmore-timeago.twig:5
+#, python-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#: components/4-molecules/readmore-timeago.twig:5
+#, python-format
+msgid "in %s"
+msgstr "in %s"
+
+#: components/4-molecules/post-content-additions-production-meta.twig:21
+msgid "Target group"
+msgstr "Zielgruppe"
+
+#: components/4-molecules/post-content-additions-production-meta.twig:27
+msgid "Duration"
+msgstr "Dauer"
+
+#: components/4-molecules/post-content-additions-production-meta.twig:33
+msgid "Premiere"
+msgstr "Premiere"
+
+#: components/4-molecules/password-form.twig:3
+msgid "Password"
+msgstr "Passwort"
+
+#: components/4-molecules/password-form.twig:4
+msgid "Submit"
+msgstr "Bestätigen"
+
+#: components/4-molecules/password-form.twig:7
+msgid "Enter the Password to view the content."
+msgstr ""
+
+#: components/4-molecules/post-content-additions-venue.twig:29
+msgid "Wo soll das sein?"
+msgstr ""
+
+#: components/7-regions/header.twig:11
+#: components/7-regions/header.twig:15
+msgid "New"
+msgstr "Neu"
+
+#: components/7-regions/header.twig:13
+msgid "Soon"
+msgstr "Bald"
+
+#: components/7-regions/content.twig:4
+msgid "Main content"
+msgstr "Hauptinhalt"
+
+#: components/7-regions/footer.twig:4
+msgid "Reviews"
+msgstr "Meinungen"
+
+#: components/7-regions/footer.twig:15
+msgid "Contact details"
+msgstr "Kontaktdaten"
+
+#: components/7-regions/footer.twig:20
+msgid "Awarded & supported by"
+msgstr "Ausgezeichnet & unsterstützt von"
+
+#: components/7-regions/footer.twig:24
+msgid "Active & Engaged"
+msgstr "Aktiv & Engagiert"
+
+#: components/6-components/comment-section.twig:31
+msgid "Comments"
+msgstr "Kommentare"
+
+#: components/6-components/user-notifier.twig:10
+msgid "Missing Javascript"
+msgstr ""
+
+#: components/6-components/user-notifier.twig:12
+#, python-format
+msgid "This Website is better usable and much more pretty with <a href=%s>Javascript</a> enabled. <a href=%s title='How to enable Javascript in your browser'>Give it a try</a>!"
+msgstr ""
+
+#: components/6-components/user-notifier.twig:25
+msgid "Your browser is out of date!"
+msgstr ""
+
+#: components/6-components/user-notifier.twig:27
+#, python-format
+msgid "Internet Explorer ≤ 9 is out of date. It has known security flaws and may not display all features of this and other websites. <a href=\"%s\">Learn how to update your browser</a>."
+msgstr ""
+
+#: components/6-components/user-notifier.twig:43
+msgid "We are using Cookies"
+msgstr ""
+
+#: components/6-components/user-notifier.twig:45
+#, python-format
+msgid "This website uses cookies to ensure you get the best experience on our website. <br>Read our <a href=%s>Privacy Policy</a> to get more information."
+msgstr ""
+
+#: components/6-components/comment.twig:14
+msgid "sayed"
+msgstr "meinte"
+
+#: components/6-components/comment.twig:18
+msgid "Reply"
+msgstr "Antworte"
+
+#: components/6-components/post-listed.twig:44
+msgid "This content is password protected."
+msgstr "Dieser Inhalt ist durch ein Passwort geschützt."
+
+#: components/6-components/post-listed.twig:111
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Kommentar"
+msgstr[1] "Kommentare"
+
+#: components/9-extras/base.twig:28
+msgid "Related content"
+msgstr ""
+
+#~ msgid "Come in touch"
+#~ msgstr "Kontakt aufnehmen"
+
+#~ msgid "Archives: %s"
+#~ msgstr "Übersicht: %s"

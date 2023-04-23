@@ -1,0 +1,29 @@
+<?php
+/**
+ *	Load Color palette
+ *
+ *	@see		
+ * 	
+ *	@since		2016.08.08
+ *
+ */
+
+// load SASS Color variables into array
+$_scss_file = get_stylesheet_directory() . '/assets/styles/source/2-defaults/_colors.scss';
+$_scss_file_lines = file( $_scss_file, FILE_SKIP_EMPTY_LINES);
+
+$_color_vars = array_filter(array_map(function($n) { if(strstr( $n, '#')) return strstr( $n, '#'); }, $_scss_file_lines));
+
+#echo'<pre>';var_dump($_color_vars);echo'</pre>';
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'        => 'palette',
+	'settings'    => 'theme_colors',
+	'label'       => esc_attr__( 'Palette Control', 'figuren-theater' ),
+	'section'     => 'colors', // one of WPs default sections
+	'default'     => 'standard',
+	'priority'    => 10,
+	'choices'     => array(
+		'standard' => $_color_vars,
+	),
+) );

@@ -1,0 +1,23 @@
+{
+"settings": {
+	"defaults": {
+		"color": {
+			"custom": false,
+			"customGradient": false,
+			"palette": [
+				{
+				"slug": "purple",
+				"color": "#D1D1E4",
+				"name": "Purple"
+				},
+				{
+				"slug": "red",
+				"color": "#E4D1D1",
+				"name": "Red"
+				}
+
+			]
+		   }
+         }
+      }
+}

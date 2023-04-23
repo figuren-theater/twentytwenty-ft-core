@@ -1,0 +1,106 @@
+<?php
+/**
+ *	Front Page Settings
+ *
+ *	@since		2016.10.18
+ *
+ */
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'     => 'text',
+	'settings' => 'blog_headline',
+	'label'    => __( 'Blog - Headline', 'juliaraab' ),
+	'section'  => 'static_front_page',
+	'default'  => esc_attr__( 'Recent blogposts', 'juliaraab' ),
+	'priority' => 10,
+	'transport' => 'postMessage',
+	'js_vars'   => array(
+		array(
+			'element'  => '#blog-panel-title',
+			'function' => 'html',
+			'property' => 'text',
+		),
+	),
+) );
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'        => 'slider',
+	'settings'    => 'blog_count_posts',
+	'label'       => esc_attr__( 'Number of blogposts to show', 'juliaraab' ),
+	'section'     => 'static_front_page',
+	'default'     => 3,
+	'choices'     => array(
+		'min'  => '0',
+		'max'  => '30',
+		'step' => '3',
+	),
+	'tooltip'     => esc_attr__( 'Zero shows all existing Blogposts', 'juliaraab' ),
+) );
+
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'     => 'text',
+	'settings' => 'clients_headline',
+	'label'    => __( 'Clients - Headline', 'juliaraab' ),
+	'section'  => 'static_front_page',
+	'default'  => esc_attr__( 'My Clients', 'juliaraab' ),
+	'priority' => 10,
+	'transport' => 'postMessage',
+	'js_vars'   => array(
+		array(
+			'element'  => '#taxonomy-client-panel-title',
+			'function' => 'html',
+			'property' => 'text',
+		),
+	),
+) );
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'        => 'slider',
+	'settings'    => 'clients_to_show',
+	'label'       => esc_attr__( 'Number of clients to show', 'juliaraab' ),
+	'section'     => 'static_front_page',
+	'default'     => 4,
+	'choices'     => array(
+		'min'  => '0',
+		'max'  => '20',
+		'step' => '4',
+	),
+	'tooltip'     => esc_attr__( 'Zero shows all existing Clients', 'juliaraab' ),
+) );
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'     => 'text',
+	'settings' => 'client_panel_cta_bereiche_title',
+	'label'    => __( 'title: working areas cta', 'juliaraab' ),
+	'section'  => 'static_front_page',
+#	'default'  => esc_attr__( 'This is a defualt value', 'juliaraab' ),
+#	'priority' => 10,
+) );
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'     => 'textarea',
+	'settings' => 'client_panel_cta_bereiche_desc',
+	'label'    => __( 'description: working areas cta', 'juliaraab' ),
+	'section'  => 'static_front_page',
+#	'default'  => esc_attr__( 'This is a defualt value', 'juliaraab' ),
+#	'priority' => 10,
+) );
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'     => 'text',
+	'settings' => 'client_panel_cta_projects_title',
+	'label'    => __( 'title: projects cta', 'juliaraab' ),
+	'section'  => 'static_front_page',
+#	'default'  => esc_attr__( 'This is a defualt value', 'juliaraab' ),
+#	'priority' => 10,
+) );
+
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'     => 'textarea',
+	'settings' => 'client_panel_cta_projects_desc',
+	'label'    => __( 'description: projects cta', 'juliaraab' ),
+	'section'  => 'static_front_page',
+#	'default'  => esc_attr__( 'This is a defualt value', 'juliaraab' ),
+#	'priority' => 10,
+) );

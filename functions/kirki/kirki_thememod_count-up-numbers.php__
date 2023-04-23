@@ -1,0 +1,47 @@
+<?php
+/**
+ *	Count Up Numbers
+ *
+ *	Number accompanied by decent byline.
+ *	Planned as a repeater-controll, but that's impossible at the moment
+ *	@see		https://github.com/aristath/kirki/issues/675
+ * 	
+ *	@since		2016.08.01
+ *
+ */
+Kirki::add_field( get_stylesheet().'_mod', array(
+	'type'        => 'repeater',
+	'label'       => esc_attr__( 'Count up Numbers', 'figuren-theater' ),
+	'section'     => get_stylesheet().'_mod'.'_bricks',
+	'priority'    => 10,
+	'settings'    => 'count_up_numbers',
+	'default'     => array(
+		array(
+			'cun_nr'  => 27,
+			'cun_text' => esc_attr__( 'Competitions won', 'figuren-theater' ),
+		),
+		array(
+			'cun_nr'  => 483,
+			'cun_text' => esc_attr__( 'People spoke to', 'figuren-theater' ),
+		),
+	),
+	'fields' => array(
+		'cun_nr' => array(
+			'type'        => 'number',
+			'label'       => esc_attr__( 'Number', 'figuren-theater' ),
+			'description' => esc_attr__( 'This will be the numeric count.', 'figuren-theater' ),
+			'default'     => 10,
+			'choices'     => array(
+				'min'  		=> 0,
+				'max'  		=> 3000,
+				'step' 		=> 1,
+			)
+		),
+		'cun_text' => array(
+			'type'        => 'text',
+			'label'       => esc_attr__( 'Byline', 'figuren-theater' ),
+			'description' => esc_attr__( 'This will be the label for your number.', 'figuren-theater' ),
+			'default'     => '',
+		),
+	)
+) );

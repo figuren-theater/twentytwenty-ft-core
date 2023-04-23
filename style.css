@@ -1,0 +1,132 @@
+/*!
+Theme Name:     figuren.theater NETWORK
+Theme URI:		http://figuren.theater
+Description:    based on twentytwenty, Theme for all administrative figuren.theater Domains
+Author:         Carsten Bach
+Author URI:     http: //www.carsten-bach.de/
+Version:        2020.03.01
+License: 		GNU General Public License v2.0
+License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 	figuren-theater
+Template: 		twentytwenty
+Domain Path: 	/languages/
+Tags:           
+*/
+
+/*	####################################################
+	THEME - Modifications
+	####################################################*/
+
+/*	####################################################
+	THEME - Additions
+	####################################################*/
+.blend-mode-multiply {
+	mix-blend-mode: multiply;
+}
+
+/*
+ because thoose nice mix-blend-mode-classes can not be added 
+ onto the images directly via gutenberg, without destroying the blocks
+ We've to take this approach.
+ */
+[class*="blend-mode-"] figure,
+[class*="blend-mode-"] img{
+	mix-blend-mode: inherit;
+}
+
+
+
+/*	####################################################
+	THEME - Additions "W-Fragen"
+	####################################################*/
+.ft_w-q {}
+
+.postid-353 #site-content /**/ ,
+.page-id-177 #site-content /* https://meta.figuren.test/w-fragen/ */ {
+	overflow: visible; /* needs to be done to make pos:sticky work */
+}
+
+.ft_wquests__qhead /* WAS WARUM WOZU WEN WIE headlines */ {
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+	z-index: 100;
+	line-height: 4em;
+	width: 100%;
+	background-color: #fff;
+}
+@media (min-width:782px) {
+	.postid-353 .wp-block-column:not(:first-child) /* greater column gap */ {
+		margin-left:6em;
+	}
+}
+
+.ft-br /* used with goals-pyramide  */ {
+	border-radius: 6em;
+}
+
+/*
+.testimonial-6{
+	max-width:80%;
+	margin:0 auto;
+}
+.testimoial-6 .wp-block-column:nth(first-child){
+	padding: 0 33px 0 0;
+}
+.testimonial-6 .paragraph-1{
+	padding:38px !important;
+	margin-bottom:24px !important;
+}
+.testimonial-6 .wp-block-image {
+	display:inline-block !important;
+	margin: 0 10px 34px 0 !important;
+}
+.testimonial-6 .wp-block-image img {
+	vertical-align:bottom;
+}
+.testimonial-6 .wp-block-group {
+	display:inline-block !important;
+}
+.testimonial-6 .wp-block-group::before{
+	content: "\A";
+	border-right: 30px solid transparent;
+	border-top: 26px solid#0693e3;
+	margin: 0 0 0 -68px;
+}*/
+
+
+/*	####################################################
+	PLUGIN - Modifications "Contact Form 7"
+	####################################################
+span span.wpcf7-list-item {
+	margin: 0;
+} */
+
+
+/*	####################################################
+	PLUGIN - Modifications "Pro Sites"
+	####################################################
+#prosites-checkout-table {
+	margin: 0 auto 1.25em;
+} */
+
+
+/*	####################################################
+	Hide the 'Google Recaptcha v3' Badge
+	but needs one sentence next to the form
+	https://stackoverflow.com/a/53986985
+	####################################################
+.grecaptcha-badge {
+	opacity: 0;
+} */
+
+
+/*	####################################################
+	'twentytwenty' has a singular class '.privacy-policy'
+	which adds some lefty margin, to arrange 
+	an a tag inside the footer (but with no refs).
+
+	But this is class is also added to the body ....
+	so we have to remove this.
+	#################################################### */
+body.privacy-policy { margin: 0; }
