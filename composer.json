@@ -1,6 +1,6 @@
 {
 	"name": "figuren-theater/twentytwenty-ft-core",
-	"description": "WordPress 'twentytwentytwo' Child Theme used in the figuren.theater Multisite network.",
+	"description": "WordPress 'twentytwenty' Child Theme used in the figuren.theater Multisite network.",
     "homepage": "https://websites.fuer.figuren.theater",
     "type": "wordpress-theme",
     "keywords": ["wordpress", "theme", "full-site-editing", "blockthemes"],
@@ -29,7 +29,12 @@
 		}
 	],
 	"require": {
-        "composer/installers": "^1.0",
-		"wpackagist-theme/twentytwenty": "*"
+        "wpackagist-theme/twentytwenty": "*",
+		"composer/installers": "^2"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
